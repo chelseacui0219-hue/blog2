@@ -85,6 +85,26 @@ source("code/03_hn_scraping.R")
 
 All outputs will be regenerated in `data/` and `output/`.
 
+## Conclusion  
+Across three independent sources and 369 job postings, the data
+does not point to a single "most in-demand" skill. Instead, it
+shows a **segmented market**:
+
+- **Hacker News** (startup / full-stack): Python leads at 28%,
+  followed by TypeScript and React.
+- **We Work Remotely** (product-oriented remote companies):
+  React leads at 40%, with AWS and CI/CD close behind.
+- **RemoteOK** (infrastructure / DevOps): Go and system
+  administration dominate.
+
+The only skills that appear near the top on **more than one**
+platform are **Python** and **React**. Cloud and DevOps tools
+(AWS, Docker, CI/CD) recur across platforms but never as the
+single top skill.
+
+For someone unsure which segment to target, a low-regret starting point would be Python and React first, then
+cloud/DevOps literacy. 
+
 ## Ethical Considerations
 
 - All data sources are **publicly available** — no logins, CAPTCHAs,
