@@ -6,19 +6,17 @@ author: Yuzhuo Cui
 
 ## Introduction
 
-Tech hiring has always been competitive, but the skills employers
+Tech hiring has always been competitive, while the skills employers
 ask for shift constantly. With hundreds of languages, frameworks,
 and tools competing for attention, it is hard to know where to
-focus your learning.
+focus employees' learning.
 
 This analysis scrapes job postings from three independent sources
-to answer a simple question:
+to answer below question:
 
 **Which technical skills appear most frequently in tech job
 postings?**
 
-The answer turns out to be surprisingly consistent across
-platforms.
 
 ## Where the Data Comes From
 
@@ -31,23 +29,17 @@ representing a different slice of the tech hiring market:
 | **We Work Remotely** | A remote-only job board with detailed descriptions | 25 |
 | **Hacker News "Who is Hiring?"** | Global startup and tech hiring, updated monthly | 245 |
 
-Together these sources cover a wide range of employers: from
-remote-first startups to established tech companies and
-traditional firms hiring across onsite, hybrid, and remote
-arrangements.
+Together these sources cover a certain amount of employers and postings, such as tech companies including startups and traditional companies that hiring across onsite, hybrid, and remote arrangements.
 
-Three sources are better than one. Each platform attracts a
-different kind of employer, so combining them reduces the risk
+Each platform attracts a different kind of employer, so combining them reduces the risk
 of drawing conclusions from a single, biased sample.
 
-## The Skills That Keep Appearing
+## The Skills That Keep Appearing in traditional tech-postings are not dominating the remote labor market
 
-The clearest pattern across all three datasets is the dominance
-of **Python**. It appears in 69 of the 245 Hacker News postings
-(28%), and it ranks among the top skills on the other two
-platforms as well.
+From the data, though three platforms are focusing on similar industries, the required abilities are quite different. For traditional Hacker News, **Python** dominates the postings.It appears in 69 of the 245 postings
+(28%). However, the requirement numbers for Python is other two remote platform are much lower. Especially for RemoteOK, there are only 8 postings mentioned Python in their postings. 
 
-Let's look at each source in turn.
+
 
 ### We Work Remotely: 25 Remote Tech Postings
 
@@ -56,7 +48,7 @@ Let's look at each source in turn.
 React leads the pack, appearing in 40% of postings, followed
 closely by AWS and CI/CD. The pattern here points to a
 **cloud-native, frontend-heavy** skill set — exactly what you
-would expect from a remote-only job board.
+would expect from a remote-only job board. Then Docker and Python are also been noticed by several postings. 
 
 ### RemoteOK: 99 Remote-First Postings
 
@@ -84,37 +76,34 @@ but where they differ.
 | Platform | Most distinctive skill | Likely reason |
 |----------|----------------------|---------------|
 | We Work Remotely | **React** (40% of postings) | Curated board attracts design-forward companies |
-| RemoteOK | **Go / sys admin** | User base of infrastructure engineers |
+| RemoteOK | **Go / sys admin**(30% of postings) | User base of infrastructure engineers |
 | Hacker News | **Python** (28% of postings) | Startup-heavy community, full-stack roles |
 
-> **The takeaway:** There is no single "tech job market."
-> Different platforms serve different segments, and the skills
-> that matter depend on which segment you are targeting.
+## Conclusion  
+Across three independent sources and 369 job postings, the data
+does not point to a single "most in-demand" skill. Instead, it
+shows a **segmented market**:
 
-## What This Means If You're Learning
+- **Hacker News** (startup / full-stack): Python leads at 28%,
+  followed by TypeScript and React.
+- **We Work Remotely** (product-oriented remote companies):
+  React leads at 40%, with AWS and CI/CD close behind.
+- **RemoteOK** (infrastructure / DevOps): Go and system
+  administration dominate.
 
-If you are preparing for a career in tech — or planning what to
-study next — the data suggests a clear priority order:
+The only skills that appear near the top on **more than one**
+platform are **Python** and **React**. Cloud and DevOps tools
+(AWS, Docker, CI/CD) recur across platforms but never as the
+single top skill.
 
-**1. Learn Python first.**
-It is the only language that appears near the top of every
-platform. It works for backend engineering, data analysis,
-automation, and increasingly for AI.
+For someone unsure which segment to target, a low-regret starting point would be Python and React first, then
+cloud/DevOps literacy. 
 
-**2. Add React.**
-Frontend skills are not optional. Even backend-leaning roles
-increasingly expect familiarity with a modern JavaScript
-framework.
-
-**3. Build cloud and DevOps literacy.**
-AWS, Docker, and CI/CD appear together so often that they are
-effectively a single requirement. You do not need to be a
-specialist, but you do need to be comfortable.
-
-**4. Learn one database well.**
-PostgreSQL is the safest choice, but MongoDB is also common.
-The specific choice matters less than having real experience
-with schema design and queries.
+The broader lesson is methodological: **"What skills are in
+demand?" is not a well-defined question until you specify the
+market.** Different platforms serve different employers, and
+the skills that matter depend on which segment you are
+targeting.
 
 
 ## What This Analysis Cannot Tell You
@@ -128,27 +117,10 @@ A few honest limitations:
   for real demand.
 - **Keyword counting is imprecise.** A posting that mentions
   "Python" once counts the same as one that mentions it ten times.
-- **Not all postings are remote.** The Hacker News sample
-  includes onsite and hybrid roles. This makes the findings
-  broader, but less specific to remote-only hiring.
 
 These limitations do not undermine the findings — the patterns
 are strong enough to be meaningful — but they are worth keeping
 in mind.
-
-## Conclusion
-
-Across three independent data sources and nearly 400 job postings,
-the same skills keep appearing: **Python, React, AWS, Docker, and
-CI/CD**.
-
-The specific mix varies by platform, but the core toolkit is
-remarkably consistent. For anyone preparing for a career in tech,
-the path is clear: start with Python, add frontend and cloud
-skills, and build real projects that demonstrate you can ship.
-
-The data does not predict the future. But it does describe the
-present — and the present is a good place to start.
 
 ---
 
